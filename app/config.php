@@ -4,6 +4,15 @@
 
 	$configs->env->add('development');
 
+	$configs->env->development->baseURI = '/sistema-de-cadastro-e-login-com-n-veis-de-acesso-usando-o-HXPHP-Framework/';
+
+	$configs->env->development->database->setConnectionData(array(
+		'host' => 'localhost',
+		'user' => 'root',
+		'password' => '',
+		'dbname' => 'sistemalogin'
+		));
+
 	/*
 		//Globais
 		$configs->title = 'Titulo customizado';
